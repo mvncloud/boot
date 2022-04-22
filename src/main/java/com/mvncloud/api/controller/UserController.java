@@ -16,4 +16,11 @@ public class UserController {
 		
 	}
 	
+	@GetMapping("/location")
+	public String locationinfo() {
+		
+		return "Hello user, please check location here...";
+		
+	}
+	
 }
